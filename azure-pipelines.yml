@@ -6,7 +6,8 @@
 trigger:
 - main
 
-pool: MyLocalPool
+pool:
+  name: MyLocalPool
   vmImage: MyFirstWinAgent
 
 steps:
